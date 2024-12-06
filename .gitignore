@@ -1,2 +1,61 @@
-.idea
-.idea/*
+##############################
+# OS and Editor Specific Files
+##############################
+# macOS Finder files
+.DS_Store
+
+# Windows Explorer thumbnail cache files
+Thumbs.db
+
+##############################
+# JetBrains Rider / IntelliJ-based IDEs
+##############################
+# Rider project settings directory
+.idea/
+# Sometimes Rider stores project-specific settings in additional files:
+*.DotSettings.user
+
+##############################
+# Visual Studio and MSBuild Artifacts (if applicable)
+##############################
+.vs/
+*.user
+*.suo
+
+##############################
+# .NET Build Artifacts
+##############################
+# Build directories
+**/bin/
+**/obj/
+
+# NuGet packages directory (legacy .NET Framework projects)
+packages/
+
+##############################
+# Publishing and Packaging
+##############################
+# Publish output
+**/publish/
+
+# Publish profile (Azure, etc.)
+**/Properties/PublishProfiles/
+
+##############################
+# Logs and Coverage Reports
+##############################
+*.log
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.sonarqube
+
+##############################
+# Other
+##############################
+# If you use app secrets locally (dotnet user-secrets) - these are user-specific and not part of the repo
+*.secret.json
+
+# Local tooling configuration files
+*.LocalRun.json
